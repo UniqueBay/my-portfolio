@@ -1,0 +1,14 @@
+.App {
+  .sidebar {
+    width: 16%;
+    height: 100vh;
+    background-color: #38040e;
+    position: fixed;
+  }
+  .main-content {
+    width: 84%;
+    margin-left: 16%;
+    background-color: #250902;
+    min-height: 100vh;
+  }
+}
