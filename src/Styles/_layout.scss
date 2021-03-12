@@ -4,12 +4,15 @@
     height: 100vh;
     background-color: #38040e;
     position: fixed;
-    border-right: 1px solid #8bb17a;
+    border-right: 1px solid #35ff69;
   }
   .main-content {
     width: 82%;
-    margin-left: 16%;
+    margin-left: 18%;
     background-color: #250902;
     min-height: 100vh;
+    background-image: url(../Img/dots.svg);
+    display: grid;
+    position: relative;
   }
 }
