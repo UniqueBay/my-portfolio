@@ -1,6 +1,11 @@
 @import "./Styles/layout";
 @import "./Styles/navbar";
 @import "./Styles/typos";
+@import "./Styles/title";
+@import "./Styles/about";
+@import "./Styles/skill";
+@import "./Styles/services";
+@import "./Styles/contact";
 
 * {
   padding: 0;
@@ -10,7 +15,22 @@
 
 body {
   color: #b5ca8d;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2rem;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #35ff69;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #35ff6873;
+}
+
+span {
+  color: #35ff6873;
 }
