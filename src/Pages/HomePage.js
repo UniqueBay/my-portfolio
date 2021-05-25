@@ -1,24 +1,28 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faFacebook} from "@fortawesome/free-brands-svg-icons";
-import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import {faTwitter} from "@fortawesome/free-brands-svg-icons";
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faFacebook, faGithub, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import Typed from "react-typed";
 
 export default function HomePage() {
     return (
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">
-                    Hi, I am 
-                    <span> Abayomi Alabi</span>
+                    Hi😀, I am
+                    <Typed 
+                    className="typed-text" 
+                    strings={[" Abayomi Alabi", " Abayomi.Js", " Unique Abayomi", " Unique Bay🌹"]} 
+                    typeSpeed={80}
+                    backSpeed={60}
+                    loop
+                    />
                 </h1>
                 <p className="home-sub-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Enim error quasi dolore, dolorem, officiis exercitationem fuga, 
-                    sint harum dolor neque incidunt. Inventore natus animi, 
-                    commodi dolores unde necessitatibus recusandae quo.
+                    Hi again, My name is Abayomi, and i'm a Front-End Developer, before that
+                     am just some guy who loves solving Maths problem, Puzzles and Maze anywhere i can find them.
+                      Basically am just an addicted problem solver in love with Anime and Dogs.! Wanna talk about something
+                       interesting, be sure to hit me up on any of those social media links. Lets connect.!
                 </p>
                 <div className="icons">
                     <Link to="/" className="icon-holder">
