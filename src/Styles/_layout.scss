@@ -6,13 +6,14 @@
     position: fixed;
     border-right: 1px solid #35ff69;
     transform-origin: left;
+    z-index: 11;
     @media screen and (max-width: 1000px) {
       transition: all 0.4s ease-in-out;
       transform: translateX(-100%);
       width: 30%;
     }
     @media screen and (max-width: 411px) {
-      width: 50%;
+      width: 40%;
     }
   }
   .nav-toggle {
@@ -68,7 +69,7 @@
   .lines-3 {
     height: 0.4rem;
     width: 100%;
-    background-color: #3858cc;
+    background-color: #35ff69;
     pointer-events: none;
     display: none;
     border-radius: 20px;
