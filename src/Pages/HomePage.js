@@ -25,16 +25,16 @@ export default function HomePage() {
                        interesting, be sure to hit me up on any of those social media links. Lets connect.!
                 </p>
                 <div className="icons">
-                    <Link to="/" className="icon-holder">
+                    <Link to="https://www.facebook.com/abayomi.alabi.718" className="icon-holder">
                     <FontAwesomeIcon icon={faFacebook} className="icon fb" />
                     </Link>
-                    <Link to="/" className="icon-holder">
+                    <Link to="https://github.com/UniqueBay" className="icon-holder">
                     <FontAwesomeIcon icon={faGithub} className="icon gh" />
                     </Link>
-                    <Link to="/" className="icon-holder">
+                    <Link to="https://twitter.com/unique_Abayomi?s=09" className="icon-holder">
                     <FontAwesomeIcon icon={faTwitter} className="icon tw" />
                     </Link>
-                    <Link to="/" className="icon-holder">
+                    <Link to="https://www.linkedin.com/in/abayomi-alabi-ba667b12a" className="icon-holder">
                     <FontAwesomeIcon icon={faLinkedin} className="icon li" />
                     </Link>
                 </div>
