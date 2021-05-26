@@ -23,7 +23,7 @@ function AboutImage() {
                         <p>Addictions</p>
                     </div>
                     <div className="right-section">
-                        <p>:  Abayomi Alabi Moshood</p>
+                        <p>:  Abayomi Alabi</p>
                         <p>:  25</p>
                         <p>:  Nigeria</p>
                         <p>:  English, French</p>
